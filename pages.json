@@ -1,0 +1,93 @@
+{
+	//配置easycom组件模式
+	"easycom": {
+		"^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationStyle":"custom"
+			}
+		},
+		{
+			"path": "pages/login/index",
+			"style": {
+				"navigationBarTitleText": "登陆"
+			}
+		},
+		{
+			"path": "pages/list/index",
+			"style": {
+				"navigationBarTitleText": "我的订单",
+				"enablePullDownRefresh":true
+			}
+		},
+		{
+			"path": "pages/avatar-cropper/index",
+				"style": {
+					"navigationBarTitleText": "头像裁剪",
+					"navigationBarBackgroundColor": "#000000"
+				}
+		},
+		{
+			"path": "pages/user/index",
+			"style": {
+				"navigationBarTitleText": "个人中心"
+			}
+		},
+		{
+			"path": "pages/login/getSetting",
+			"style": {
+				"navigationBarTitleText": "微信授权"
+			}
+		},
+		{
+			"path": "pages/wallet/more",
+			"style": {
+				"navigationBarTitleText": "更多"
+			}
+		},
+		{
+			"path": "pages/wallet/getCash",
+			"style": {
+				"navigationBarTitleText": "我要提现"
+			}
+		},
+		{
+			"path": "pages/wallet/index",
+			"style": {
+				"navigationBarTitleText": "我的钱包",
+				"navigationStyle":"custom"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "校餐通-骑手端",
+		"navigationBarBackgroundColor": "#ffdf67",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+	    "color": "#7A7E83",
+	    "selectedColor": "#3cc51f",
+	    "borderStyle": "black",
+	    "backgroundColor": "#ffffff",
+	    "list": [{
+	        "pagePath": "pages/list/index",
+	        // "iconPath": "static/image/list.png",
+	        // "selectedIconPath": "static/image/list_selected.png",
+	        "text": "订单"
+	    }, {
+	        "pagePath": "pages/index/index",
+	        // "iconPath": "static/image/index.png",
+	        // "selectedIconPath": "static/image/index_selected.png",
+	        "text": "抢单池"
+	    }, {
+	        "pagePath": "pages/wallet/index",
+	        // "iconPath": "static/image/wallet.png",
+	        // "selectedIconPath": "static/images/wallet_selected.png",
+	        "text": "钱包"
+	    }]
+	}
+}

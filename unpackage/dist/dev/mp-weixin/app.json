@@ -1,0 +1,42 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/login/index",
+    "pages/list/index",
+    "pages/avatar-cropper/index",
+    "pages/user/index",
+    "pages/login/getSetting",
+    "pages/wallet/more",
+    "pages/wallet/getCash",
+    "pages/wallet/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "校餐通-骑手端",
+    "navigationBarBackgroundColor": "#ffdf67",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/list/index",
+        "text": "订单"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "抢单池"
+      },
+      {
+        "pagePath": "pages/wallet/index",
+        "text": "钱包"
+      }
+    ]
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap79.json"
+}
