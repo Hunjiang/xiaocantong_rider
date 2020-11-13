@@ -61,7 +61,20 @@
 				"navigationStyle":"custom"
 			}
 		}
-	],
+	    ,{
+            "path" : "pages/wallet/myAccount",
+            "style" : {
+				"navigationBarTitleText": "我的账户"
+			}
+        },
+		{
+		    "path" : "pages/wallet/changePassword",
+		    "style" : {
+				"navigationBarTitleText": "修改密码"
+			}
+		}
+       
+    ],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
 		"navigationBarTitleText": "校餐通-骑手端",

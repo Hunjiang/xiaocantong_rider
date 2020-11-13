@@ -3,7 +3,7 @@
 
 
 		<view class="form" v-if="isForm">
-			<u-field v-model="account" :icon-style="icon" label="用户名" icon="phone" placeholder="请输入用户名" :field-style="field"
+			<u-field v-model="account" :icon-style="icon" label="用户名" icon="phone" placeholder="请输入手机号" :field-style="field"
 			 placeholder-style="">
 			</u-field>
 			<u-field v-model="password" :icon-style="icon" label="密码" password icon="lock" placeholder="请输入密码" :field-style="field">

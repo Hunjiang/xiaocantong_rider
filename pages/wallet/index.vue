@@ -2,7 +2,10 @@
 	<view class="content">
 		<view class="nav">
 			<view>
-				<u-image :src="base + userInfo.avatar" width="105rpx" height="105rpx" border-radius="55rpx"></u-image>
+				<navigator url="/pages/wallet/myAccount">
+					<u-image :src="base + userInfo.avatar" width="105rpx" height="105rpx" border-radius="55rpx"></u-image>
+				</navigator>
+				
 				<view>
 					<view>
 						{{userInfo.nickname}}

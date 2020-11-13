@@ -6,7 +6,8 @@ import App from './App'
 import uView from "uview-ui";
 Vue.use(uView);
 //全局域名
-Vue.prototype.$base = "https://h5.xiaocantong.net"
+// Vue.prototype.$base = "https://h5.xiaocantong.net"
+Vue.prototype.$base = "http://test.xiaocantong.net"
 //引入vuex
 import store from './store'
 //把vuex定义成全局组件

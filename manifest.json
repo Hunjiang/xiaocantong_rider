@@ -1,6 +1,6 @@
 {
     "name" : "校餐通骑手端",
-    "appid" : "__UNI__732FCCA",
+    "appid" : "__UNI__00DD001",
     "description" : "",
     "versionName" : "1.0.0",
     "versionCode" : "100",
@@ -84,7 +84,8 @@
         "devServer" : {
             "port" : 80
         },
-		"domain" : "https://h5.xiaocantong.net",
+        // "domain" : "https://h5.xiaocantong.net",
+		"domain" : "http://test.xiaocantong.net",
         "optimization" : {
             "treeShaking" : {
                 "enable" : true
